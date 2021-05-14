@@ -112,3 +112,4 @@ D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\staticweba
 D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\projetest.dll
 D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\projetest.pdb
 D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\projetest.genruntimeconfig.cache
+D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\Razor\Views\Home\istangram.cshtml.g.cs

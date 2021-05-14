@@ -49,7 +49,7 @@
             <img src="~/images/ic02.jpeg" alt="logo"
                  style="height:60px; width:auto;">
             <span class="brand-text" style="font-weight:500; color:white; font-size:1.3em;">Proje Test</span>
-        </a><span><a href="https://github.com/KayaTS" rel="nofollow">Designed by Kaya</a></span>
+        </a><span><a href="https://github.com/KayaTS" rel="nofollow">Kaya</a></span>
         <!-- Sidebar -->
         <div class="sidebar">
             <!-- Sidebar user (optional) -->
@@ -59,7 +59,7 @@
                     </div>*@
                 <div class="info">
                     <a asp-action="Profil" class="d-block">
-                        <i class="nav-icon fa fa-male text-blue"></i> Müslüm Sesigür
+                        <i class="nav-icon fa fa-male text-blue"></i> Profilim
                     </a>
                     <!-- User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Name).Value</a> -->
                 </div>
@@ -108,8 +108,16 @@
                         </ul>
                     </li>
                     <li class="nav-item">
+                        <a asp-action="istangram" class="nav-link">
+                            <i class="nav-icon fa fa-thumbs-up text-red" aria-hidden="true"></i>
+                            <p>
+                                İstangram
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a asp-action="Yapiliyor" class="nav-link">
-                            <i class="nav-icon fa fa-binoculars text-red" aria-hidden="true"></i>
+                            <i class="nav-icon fa fa-binoculars text-white" aria-hidden="true"></i>
                             <p>
                                 Rehber
                             </p>
@@ -133,7 +141,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a asp-action="Yapiliyor" class="nav-link">
+                        <a asp-action="Sohbet" class="nav-link">
                             <i class="fa fa-comments nav-icon text-green"></i>
                             <p>
                                 Mesajlar

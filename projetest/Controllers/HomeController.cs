@@ -31,6 +31,11 @@ namespace projetest.Controllers
         {
             return View();
         }
+        public IActionResult istangram()
+        {
+            return View();
+        }
+        
         public IActionResult rehber()
         {
             return View();
