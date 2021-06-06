@@ -17,6 +17,11 @@ namespace projetest.Controllers
         {
             return View();
         }
+        public IActionResult mekan()
+        {
+            return View();
+        }
+
         public IActionResult Profil()
         {
             return View();

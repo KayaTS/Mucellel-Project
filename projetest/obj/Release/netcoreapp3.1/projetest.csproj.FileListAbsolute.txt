@@ -113,3 +113,4 @@ D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\projetest.
 D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\projetest.pdb
 D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\projetest.genruntimeconfig.cache
 D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\Razor\Views\Home\istangram.cshtml.g.cs
+D:\Programfiles\VSRepos\projetest\projetest\obj\Release\netcoreapp3.1\Razor\Views\Home\mekan.cshtml.g.cs

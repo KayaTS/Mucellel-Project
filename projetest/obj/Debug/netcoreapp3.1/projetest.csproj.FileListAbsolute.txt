@@ -113,3 +113,4 @@ D:\Programfiles\VSRepos\projetest\projetest\obj\Debug\netcoreapp3.1\Razor\Views\
 D:\Programfiles\VSRepos\projetest\projetest\obj\Debug\netcoreapp3.1\Razor\Views\Home\rehber.cshtml.g.cs
 D:\Programfiles\VSRepos\projetest\projetest\obj\Debug\netcoreapp3.1\Razor\Views\Home\sohbet.cshtml.g.cs
 D:\Programfiles\VSRepos\projetest\projetest\obj\Debug\netcoreapp3.1\Razor\Views\Home\istangram.cshtml.g.cs
+D:\Programfiles\VSRepos\projetest\projetest\obj\Debug\netcoreapp3.1\Razor\Views\Home\mekan.cshtml.g.cs
