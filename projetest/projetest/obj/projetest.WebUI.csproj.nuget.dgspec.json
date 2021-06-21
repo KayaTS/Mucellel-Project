@@ -4,6 +4,68 @@
     "D:\\Programfiles\\VSRepos\\projetest\\projetest\\projetest.WebUI.csproj": {}
   },
   "projects": {
+    "D:\\Programfiles\\VSRepos\\projetest\\BL\\BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programfiles\\VSRepos\\projetest\\BL\\BL.csproj",
+        "projectName": "BL",
+        "projectPath": "D:\\Programfiles\\VSRepos\\projetest\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\Kaya\\.nuget\\packages\\",
+        "outputPath": "D:\\Programfiles\\VSRepos\\projetest\\BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Programfiles\\VSRepos\\projetest\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Programfiles\\VSRepos\\projetest\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Programfiles\\VSRepos\\projetest\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -109,6 +171,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "D:\\Programfiles\\VSRepos\\projetest\\BL\\BL.csproj": {
+                "projectPath": "D:\\Programfiles\\VSRepos\\projetest\\BL\\BL.csproj"
+              },
               "D:\\Programfiles\\VSRepos\\projetest\\DAL\\DAL.csproj": {
                 "projectPath": "D:\\Programfiles\\VSRepos\\projetest\\DAL\\DAL.csproj"
               }
@@ -124,6 +189,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.7, )"

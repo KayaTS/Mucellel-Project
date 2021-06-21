@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AzpudiGbF42PC+qMQrrJkYlBL7zXxF/y8A5dCaBgj043JzY7fTM14cN4NSs8LqSn5H9KZhZIuPCK1BSgMv2iyA==",
+  "dgSpecHash": "owHMny3zBakAoi6opCSvNBOG2bwpAe4soyIxn+8yjElX8GSIXB0bLQWjikfZJSAnNhRyWn7HYx7xDcyT4AUQ7Q==",
   "success": true,
   "projectFilePath": "D:\\Programfiles\\VSRepos\\projetest\\projetest\\projetest.WebUI.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
+    "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.aspnetcore.session\\2.2.0\\microsoft.aspnetcore.session.2.2.0.nupkg.sha512",
     "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.9.4\\microsoft.codeanalysis.analyzers.2.9.4.nupkg.sha512",
     "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\microsoft.codeanalysis.common.3.3.1.nupkg.sha512",

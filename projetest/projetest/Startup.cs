@@ -13,6 +13,7 @@ using DAL.Entities;
 using DAL.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using BL.Repositories;
 
 namespace projetest.WebUI
 {
@@ -28,7 +29,7 @@ namespace projetest.WebUI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddScoped(typeof(Repository<>));
+            services.AddScoped(typeof(Repository<>));
             services.AddControllersWithViews();
             services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<MyContext>();
             services.AddDbContext<MyContext>(options => options.UseSqlServer(configuration.GetConnectionString("MyCon1")));
