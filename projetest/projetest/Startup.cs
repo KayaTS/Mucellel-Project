@@ -32,6 +32,7 @@ namespace projetest.WebUI
             services.AddScoped(typeof(Repository<>));
             services.AddControllersWithViews();
             services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<MyContext>();
+
             services.AddDbContext<MyContext>(options => options.UseSqlServer(configuration.GetConnectionString("MyCon1")));
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
             {

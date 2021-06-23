@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DAL.Contexts
 {
-    public class MyContext : DbContext
+    public class MyContext : IdentityDbContext<AppUser>
     {
         public MyContext(DbContextOptions<MyContext> options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
