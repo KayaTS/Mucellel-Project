@@ -1,0 +1,80 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="~/HeaderAssets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i">
+</head>
+
+<body>
+    <h6 class="text-center text-white d-none d-lg-block site-heading">
+    <span class="text-primary site-heading-upper mb-3" style="color: var(--red);font-family: Raleway, sans-serif;font-size: 27px;letter-spacing: 3px;">İstanbul'a Farklı bİr pencereden Bakın</span>
+    <span class="site-heading-lower">7 Tepe İstanbul</span>
+    </h6>
+    <div style="width: 115px;margin:auto;position:relative;">
+        <img src="~/HeaderAssets/img/71.png" style="width: 115px;margin:auto;position:relative;">
+    </div>
+   
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark py-lg-4" id="mainNav" style="background: var(--cyan);border-color: var(--indigo);padding: 0px 0px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;height: 76.891px;">
+        <div class="container">
+            <a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">Brand</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="height: 59px;width: 919px;min-width: 0px;max-width: 642px;">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Index" style="color: var(--white);">Anasayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Istanbul" style="color: var(--white);">İstanbul</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Harita" style="color: var(--white);">Harita</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Yapilar" style="color: var(--white);">Yapılar</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Unity" style="color: var(--white);">Oyun</a></li>
+                    @{if (User.Identity.IsAuthenticated && User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Role).Value == "uye")
+                    {
+                    <li class="nav-item"><a asp-action="Profil" asp-area="uye" role="button" class="btn btn-primary" style="margin: 0px;margin-right: 20px;color: var(--white);background: var(--cyan);">@User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Name).Value</a></li>
+                    <li class="nav-item"><a asp-action="Cikis" role="button" class="btn btn-danger" style="color: var(--white);">Çıkış Yap</a></li>
+
+                            <!--
+                <li class="nav-item dropdown">
+                <a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#" style="color: var(--white);">User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Name).Value</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" asp-controller="Home" asp-area="uye" asp-action="Profil">Profilim</a>
+                    <a class="dropdown-item" asp-controller="Home" asp-area="uye"  asp-action="Shobet">Mesajlar</a>
+                    <a class="dropdown-item" asp-controller="Home" asp-area="uye" asp-action="Cikis">>Çıkış Yap</a>
+                </div>
+            </li>
+            -->
+
+                    }
+                    else
+                    {
+                    <li class="nav-item"><a asp-action="Login" role="button" class="btn btn-primary" style="color: var(--white);background: var(--cyan);">Giriş Yap</a></li>
+                    <li class="nav-item"><a asp-action="Kayit" role="button" class="btn btn-success" style="color: var(--white);">Kayıt Ol</a></li>
+                    }
+                    }
+                    <!--
+
+    <li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link" aria-expanded="true" data-toggle="dropdown" href="#" style="color: var(--white);">İçerik</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" asp-controller="Home" asp-action="Yapilar">Yapılar</a>
+            <a class="dropdown-item" asp-controller="Home" asp-action="Yapilar">İÇERİK2</a>
+            <a class="dropdown-item" asp-controller="Home" asp-action="Yapilar">İÇERİK3</a>
+        </div>
+    </li>
+
+    -->
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="~/HeaderAssets/js/jquery.min.js"></script>
+    <script src="~/HeaderAssets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/HeaderAssets/js/script.min.js"></script>
+</body>
+
+</html>

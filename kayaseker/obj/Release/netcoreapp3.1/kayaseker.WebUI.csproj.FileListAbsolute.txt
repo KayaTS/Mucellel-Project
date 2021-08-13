@@ -1,0 +1,301 @@
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\appsettings.json
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.exe
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.deps.json
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.runtimeconfig.json
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.runtimeconfig.dev.json
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.pdb
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.Views.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.Views.pdb
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.DAL.dll
+D:\Web Proje\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.DAL.pdb
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.csprojAssemblyReference.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.AssemblyInfoInputs.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.AssemblyInfo.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.csproj.CoreCompileInputs.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorAssemblyInfo.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorAssemblyInfo.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.TagHelpers.input.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.TagHelpers.output.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorCoreGenerate.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Index.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorTargetAssemblyInfo.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorTargetAssemblyInfo.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.Views.pdb
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.csproj.CopyComplete
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\staticwebassets\kayaseker.WebUI.StaticWebAssets.Manifest.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\staticwebassets\kayaseker.WebUI.StaticWebAssets.xml
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.dll
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.pdb
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.genruntimeconfig.cache
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Bebelik.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Foto.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Muzikler.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Oyun.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Paylas.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Profil.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\ProfilB.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\ProfilK.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Siirler.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Sohbet.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Video.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Videolar.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Yapiliyor.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Shared\_Layout.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\_ViewImports.cshtml.g.cs
+D:\Web Proje\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Mart.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\appsettings.json
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.exe
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.deps.json
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.runtimeconfig.json
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.runtimeconfig.dev.json
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.pdb
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.Views.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.WebUI.Views.pdb
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Humanizer.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker-BL.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.DAL.dll
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker-BL.pdb
+D:\Turizm\kayaseker\kayaseker\bin\Release\netcoreapp3.1\kayaseker.DAL.pdb
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.csprojAssemblyReference.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.AssemblyInfoInputs.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.AssemblyInfo.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.csproj.CoreCompileInputs.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorAssemblyInfo.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorAssemblyInfo.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.TagHelpers.input.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.TagHelpers.output.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorCoreGenerate.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Index.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\Home\Profil.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Areas\uye\Views\_ViewImports.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Ayasofya.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Harita.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Istanbul.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Kayit.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Profil.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Rehber.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Sohbet.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Unity.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Yapilar.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorTargetAssemblyInfo.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.RazorTargetAssemblyInfo.cs
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.Views.pdb
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.csproj.CopyComplete
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\staticwebassets\kayaseker.WebUI.StaticWebAssets.Manifest.cache
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\staticwebassets\kayaseker.WebUI.StaticWebAssets.xml
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.dll
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.pdb
+D:\Turizm\kayaseker\kayaseker\obj\Release\netcoreapp3.1\kayaseker.WebUI.genruntimeconfig.cache

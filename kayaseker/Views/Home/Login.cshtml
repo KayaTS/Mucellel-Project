@@ -1,0 +1,208 @@
+﻿@model kayaseker.DAL.Entities.Member
+@{
+    ViewData["Title"] = "Giriş";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Giriş</title>
+
+    <link rel="stylesheet" href="~/assets/template-assets/nicepage.css" media="screen">
+    <script class="u-script" type="text/javascript" src="~/assets/template-assets/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="~/assets/template-assets/nicepage.js" defer=""></script>
+    <link href="~/assets/template-assets/AYASOFYA-CAMİ.css" rel="stylesheet" media="screen" />
+    <meta name="generator" content="Nicepage 3.16.1, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script type="application/ld+json">
+        {
+        "context": "http://schema.org",
+        "type": "Organization",
+        "name": "Site1",
+        "url": "index.html",
+        "logo": "images/711.png",
+        "sameAs": [
+        "https://facebook.com/name",
+        "https://twitter.com/name",
+        "https://www.instagram.com/name",
+        "https://facebook.com/name",
+        "https://twitter.com/name",
+        "https://www.instagram.com/name"
+        ]
+        }
+    </script>
+    <meta property="og:title" content="AYASOFYA CAMİ">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#478ac9">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="index.html">
+    <meta name="twitter:site" content="a">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AYASOFYA CAMİ">
+    <meta name="twitter:description" content="Site1">
+</head>
+<body class="u-body">
+    
+    <section class="site-hero site-sm-hero overlay" data-stellar-background-ratio="0.5" style="        background-image: url(/images/giris.jpg);">
+        <div class="container">
+            <div class="element-animate row align-items-center justify-content-center site-hero-sm-inner">
+                <div class="col-md-7 text-center">
+                    <div class="mb-5 element-animate">
+                        <h1 class="mb-2">Giriş Yap</h1>
+                        <p class="bcrumb"><a asp-controller="Home" asp-action="Index">Anasayfa</a> <span class="sep ion-android-arrow-dropright px-2"></span>  <span class="current">Giriş Yap</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+    <section class="element-animate" data-stellar-background-ratio="0.5" style="  background-color:#ff0000">
+        <div class="register-photo">
+            <div class="form-container">
+                <div class="image-holder"></div>
+                <form method="post">
+                    <h2 class="text-center"><strong>Giriş</strong> Yap</h2>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <label for="name">Email Adresi</label>
+                            @* <span asp-validation-for="@Model.Mail" class="text-danger"></span>*@
+                            <input type="text" asp-for="Mail" class="form-control py-2">
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-12 form-group">
+                            <label for="name">Parola</label>
+                            @*<span asp-validation-for="@Model.Password" class="text-danger"></span>*@
+                            <input type="password" asp-for="Password" class="form-control py-2">
+                        </div>
+                    </div>
+                    <div> @ViewBag.Hata</div>
+
+                    @*
+                        Şifre vs yanlış ise burada error mesajı ver.
+                    *@
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="submit" value="Giriş Yap" class="btn btn-primary px-5 py-2">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<style>
+    .register-photo {
+        background: #f1f7fc;
+        padding: 80px 0;
+    }
+
+        .register-photo .image-holder {
+            display: table-cell;
+            width: auto;
+            background: url(/images/giris.jpg);
+            background-size: cover;
+        }
+
+        .register-photo .form-container {
+            display: table;
+            max-width: 900px;
+            width: 90%;
+            margin: 0 auto;
+            box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+        }
+
+        .register-photo form {
+            display: table-cell;
+            width: 400px;
+            background-color: #ffffff;
+            padding: 40px 60px;
+            color: #505e6c;
+        }
+
+    media (max-width:991px) {
+        .register-photo form
+
+    {
+        padding: 40px;
+    }
+
+    }
+
+    .register-photo form h2 {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+    .register-photo form .form-control {
+        background: #f7f9fc;
+        border: none;
+        border-bottom: 1px solid #dfe7f1;
+        border-radius: 0;
+        box-shadow: none;
+        outline: none;
+        color: inherit;
+        text-indent: 6px;
+        height: 40px;
+    }
+
+    .register-photo form .form-check {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .register-photo form .btn-primary {
+        background: #f4476b;
+        border: none;
+        border-radius: 4px;
+        padding: 11px;
+        box-shadow: none;
+        margin-top: 35px;
+        text-shadow: none;
+        outline: none !important;
+    }
+
+        .register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+            background: #eb3b60;
+        }
+
+        .register-photo form .btn-primary:active {
+            transform: translateY(1px);
+        }
+
+    .register-photo form .already {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        color: #6f7a85;
+        opacity: 0.9;
+        text-decoration: none;
+    }
+
+    body {
+        margin: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        background-color: #fff;
+    }
+</style>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Giris</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
