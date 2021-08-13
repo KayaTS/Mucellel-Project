@@ -1,0 +1,12 @@
+D:\Turizm\kayaseker\kayaseker-BL\bin\Release\netcoreapp3.1\kayaseker-BL.deps.json
+D:\Turizm\kayaseker\kayaseker-BL\bin\Release\netcoreapp3.1\kayaseker-BL.dll
+D:\Turizm\kayaseker\kayaseker-BL\bin\Release\netcoreapp3.1\kayaseker-BL.pdb
+D:\Turizm\kayaseker\kayaseker-BL\bin\Release\netcoreapp3.1\kayaseker.DAL.dll
+D:\Turizm\kayaseker\kayaseker-BL\bin\Release\netcoreapp3.1\kayaseker.DAL.pdb
+D:\Turizm\kayaseker\kayaseker-BL\obj\Release\netcoreapp3.1\kayaseker-BL.csprojAssemblyReference.cache
+D:\Turizm\kayaseker\kayaseker-BL\obj\Release\netcoreapp3.1\kayaseker-BL.AssemblyInfoInputs.cache
+D:\Turizm\kayaseker\kayaseker-BL\obj\Release\netcoreapp3.1\kayaseker-BL.AssemblyInfo.cs
+D:\Turizm\kayaseker\kayaseker-BL\obj\Release\netcoreapp3.1\kayaseker-BL.csproj.CoreCompileInputs.cache
+D:\Turizm\kayaseker\kayaseker-BL\obj\Release\netcoreapp3.1\kayaseker-BL.csproj.CopyComplete
+D:\Turizm\kayaseker\kayaseker-BL\obj\Release\netcoreapp3.1\kayaseker-BL.dll
+D:\Turizm\kayaseker\kayaseker-BL\obj\Release\netcoreapp3.1\kayaseker-BL.pdb

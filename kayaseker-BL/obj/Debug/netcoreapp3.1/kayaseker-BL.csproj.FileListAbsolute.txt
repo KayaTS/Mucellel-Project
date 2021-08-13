@@ -1,0 +1,21 @@
+D:\Web Proje\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker-BL.deps.json
+D:\Web Proje\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker-BL.dll
+D:\Web Proje\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker-BL.pdb
+D:\Web Proje\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csprojAssemblyReference.cache
+D:\Web Proje\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.AssemblyInfoInputs.cache
+D:\Web Proje\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.AssemblyInfo.cs
+D:\Web Proje\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csproj.CoreCompileInputs.cache
+D:\Web Proje\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.dll
+D:\Web Proje\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.pdb
+D:\Turizm\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker-BL.deps.json
+D:\Turizm\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker-BL.dll
+D:\Turizm\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker-BL.pdb
+D:\Turizm\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csprojAssemblyReference.cache
+D:\Turizm\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.AssemblyInfoInputs.cache
+D:\Turizm\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.AssemblyInfo.cs
+D:\Turizm\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.dll
+D:\Turizm\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.pdb
+D:\Turizm\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker.DAL.dll
+D:\Turizm\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker.DAL.pdb
+D:\Turizm\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csproj.CoreCompileInputs.cache
+D:\Turizm\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csproj.CopyComplete
