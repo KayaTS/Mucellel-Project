@@ -1,0 +1,21 @@
+D:\Web Proje\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.deps.json
+D:\Web Proje\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.dll
+D:\Web Proje\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.pdb
+D:\Web Proje\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.AssemblyInfoInputs.cache
+D:\Web Proje\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.AssemblyInfo.cs
+D:\Web Proje\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.csproj.CoreCompileInputs.cache
+D:\Web Proje\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.dll
+D:\Web Proje\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.pdb
+D:\Web Proje\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.csprojAssemblyReference.cache
+D:\Turizm\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.deps.json
+D:\Turizm\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.dll
+D:\Turizm\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.pdb
+D:\Turizm\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.csprojAssemblyReference.cache
+D:\Turizm\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.AssemblyInfoInputs.cache
+D:\Turizm\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.AssemblyInfo.cs
+D:\Turizm\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.csproj.CoreCompileInputs.cache
+D:\Turizm\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.dll
+D:\Turizm\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.pdb
+D:\Turizm\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.runtimeconfig.json
+D:\Turizm\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.runtimeconfig.dev.json
+D:\Turizm\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.genruntimeconfig.cache
