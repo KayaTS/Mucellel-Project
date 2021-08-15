@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O+oMMXtZAw11UkBHVR+niZGSEcCCE8LVLD2JkDkvUn+ZXJhPq+l0B29vyV9eMgfeUjIBctfiuvOxGioHRDz45w==",
+  "dgSpecHash": "xocIga7StlSo6jTmAiD4Rxhgx/X/O2rppA3QoGbqnJfedt4bNUy5XtITfL2W4uMevmJyF3+5UgvqjUy1nUSjrw==",
   "success": true,
-  "projectFilePath": "D:\\Turizm\\kayaseker\\kayaseker-BL\\kayaseker-BL.csproj",
+  "projectFilePath": "D:\\git\\ProjeTestSite\\kayaseker-BL\\kayaseker-BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

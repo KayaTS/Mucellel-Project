@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Turizm\\kayaseker\\kayaseker\\kayaseker.WebUI.csproj": {}
+    "D:\\git\\ProjeTestSite\\kayaseker\\kayaseker.WebUI.csproj": {}
   },
   "projects": {
-    "D:\\Turizm\\kayaseker\\kayaseker-BL\\kayaseker-BL.csproj": {
+    "D:\\git\\ProjeTestSite\\kayaseker-BL\\kayaseker-BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Turizm\\kayaseker\\kayaseker-BL\\kayaseker-BL.csproj",
+        "projectUniqueName": "D:\\git\\ProjeTestSite\\kayaseker-BL\\kayaseker-BL.csproj",
         "projectName": "kayaseker-BL",
-        "projectPath": "D:\\Turizm\\kayaseker\\kayaseker-BL\\kayaseker-BL.csproj",
+        "projectPath": "D:\\git\\ProjeTestSite\\kayaseker-BL\\kayaseker-BL.csproj",
         "packagesPath": "C:\\Users\\Kaya\\.nuget\\packages\\",
-        "outputPath": "D:\\Turizm\\kayaseker\\kayaseker-BL\\obj\\",
+        "outputPath": "D:\\git\\ProjeTestSite\\kayaseker-BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Turizm\\kayaseker\\kayaseker.DAL\\kayaseker.DAL.csproj": {
-                "projectPath": "D:\\Turizm\\kayaseker\\kayaseker.DAL\\kayaseker.DAL.csproj"
+              "D:\\git\\ProjeTestSite\\kayaseker.DAL\\kayaseker.DAL.csproj": {
+                "projectPath": "D:\\git\\ProjeTestSite\\kayaseker.DAL\\kayaseker.DAL.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\Turizm\\kayaseker\\kayaseker.DAL\\kayaseker.DAL.csproj": {
+    "D:\\git\\ProjeTestSite\\kayaseker.DAL\\kayaseker.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Turizm\\kayaseker\\kayaseker.DAL\\kayaseker.DAL.csproj",
+        "projectUniqueName": "D:\\git\\ProjeTestSite\\kayaseker.DAL\\kayaseker.DAL.csproj",
         "projectName": "kayaseker.DAL",
-        "projectPath": "D:\\Turizm\\kayaseker\\kayaseker.DAL\\kayaseker.DAL.csproj",
+        "projectPath": "D:\\git\\ProjeTestSite\\kayaseker.DAL\\kayaseker.DAL.csproj",
         "packagesPath": "C:\\Users\\Kaya\\.nuget\\packages\\",
-        "outputPath": "D:\\Turizm\\kayaseker\\kayaseker.DAL\\obj\\",
+        "outputPath": "D:\\git\\ProjeTestSite\\kayaseker.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,14 +152,14 @@
         }
       }
     },
-    "D:\\Turizm\\kayaseker\\kayaseker\\kayaseker.WebUI.csproj": {
+    "D:\\git\\ProjeTestSite\\kayaseker\\kayaseker.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Turizm\\kayaseker\\kayaseker\\kayaseker.WebUI.csproj",
+        "projectUniqueName": "D:\\git\\ProjeTestSite\\kayaseker\\kayaseker.WebUI.csproj",
         "projectName": "kayaseker.WebUI",
-        "projectPath": "D:\\Turizm\\kayaseker\\kayaseker\\kayaseker.WebUI.csproj",
+        "projectPath": "D:\\git\\ProjeTestSite\\kayaseker\\kayaseker.WebUI.csproj",
         "packagesPath": "C:\\Users\\Kaya\\.nuget\\packages\\",
-        "outputPath": "D:\\Turizm\\kayaseker\\kayaseker\\obj\\",
+        "outputPath": "D:\\git\\ProjeTestSite\\kayaseker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -175,11 +175,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Turizm\\kayaseker\\kayaseker-BL\\kayaseker-BL.csproj": {
-                "projectPath": "D:\\Turizm\\kayaseker\\kayaseker-BL\\kayaseker-BL.csproj"
+              "D:\\git\\ProjeTestSite\\kayaseker-BL\\kayaseker-BL.csproj": {
+                "projectPath": "D:\\git\\ProjeTestSite\\kayaseker-BL\\kayaseker-BL.csproj"
               },
-              "D:\\Turizm\\kayaseker\\kayaseker.DAL\\kayaseker.DAL.csproj": {
-                "projectPath": "D:\\Turizm\\kayaseker\\kayaseker.DAL\\kayaseker.DAL.csproj"
+              "D:\\git\\ProjeTestSite\\kayaseker.DAL\\kayaseker.DAL.csproj": {
+                "projectPath": "D:\\git\\ProjeTestSite\\kayaseker.DAL\\kayaseker.DAL.csproj"
               }
             }
           }

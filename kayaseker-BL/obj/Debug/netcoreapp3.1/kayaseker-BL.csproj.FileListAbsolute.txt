@@ -19,3 +19,15 @@ D:\Turizm\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker.DAL.dll
 D:\Turizm\kayaseker\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker.DAL.pdb
 D:\Turizm\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csproj.CoreCompileInputs.cache
 D:\Turizm\kayaseker\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csproj.CopyComplete
+D:\git\ProjeTestSite\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker-BL.deps.json
+D:\git\ProjeTestSite\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker-BL.dll
+D:\git\ProjeTestSite\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker-BL.pdb
+D:\git\ProjeTestSite\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker.DAL.dll
+D:\git\ProjeTestSite\kayaseker-BL\bin\Debug\netcoreapp3.1\kayaseker.DAL.pdb
+D:\git\ProjeTestSite\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csprojAssemblyReference.cache
+D:\git\ProjeTestSite\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.AssemblyInfoInputs.cache
+D:\git\ProjeTestSite\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.AssemblyInfo.cs
+D:\git\ProjeTestSite\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csproj.CoreCompileInputs.cache
+D:\git\ProjeTestSite\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.csproj.CopyComplete
+D:\git\ProjeTestSite\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.dll
+D:\git\ProjeTestSite\kayaseker-BL\obj\Debug\netcoreapp3.1\kayaseker-BL.pdb

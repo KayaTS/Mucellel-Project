@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "60SFqmWYlDYW+OMPWqjDIYBMCICudvKwsr8aVenqZdNQx+EhbXu/nEwAQDA8vRZtani+xV8tQkowDjWzT5s0+A==",
+  "dgSpecHash": "8y01U5hDmPDe1I/Qlafc43kxX6eQCB+M9yxR6Asls/ZkrSGSK+zA811fLzhOeA9eJOvLLEaig8xMtnGN8I2UCA==",
   "success": true,
-  "projectFilePath": "D:\\Turizm\\kayaseker\\kayaseker\\kayaseker.WebUI.csproj",
+  "projectFilePath": "D:\\git\\ProjeTestSite\\kayaseker\\kayaseker.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaya\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Kaya\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

@@ -19,3 +19,15 @@ D:\Turizm\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.pdb
 D:\Turizm\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.runtimeconfig.json
 D:\Turizm\kayaseker\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.runtimeconfig.dev.json
 D:\Turizm\kayaseker\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.genruntimeconfig.cache
+D:\git\ProjeTestSite\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.deps.json
+D:\git\ProjeTestSite\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.runtimeconfig.json
+D:\git\ProjeTestSite\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.runtimeconfig.dev.json
+D:\git\ProjeTestSite\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.dll
+D:\git\ProjeTestSite\kayaseker.DAL\bin\Debug\netcoreapp3.1\kayaseker.DAL.pdb
+D:\git\ProjeTestSite\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.csprojAssemblyReference.cache
+D:\git\ProjeTestSite\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.AssemblyInfoInputs.cache
+D:\git\ProjeTestSite\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.AssemblyInfo.cs
+D:\git\ProjeTestSite\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.csproj.CoreCompileInputs.cache
+D:\git\ProjeTestSite\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.dll
+D:\git\ProjeTestSite\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.pdb
+D:\git\ProjeTestSite\kayaseker.DAL\obj\Debug\netcoreapp3.1\kayaseker.DAL.genruntimeconfig.cache

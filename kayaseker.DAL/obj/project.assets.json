@@ -9364,11 +9364,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Turizm\\kayaseker\\kayaseker.DAL\\kayaseker.DAL.csproj",
+      "projectUniqueName": "D:\\git\\ProjeTestSite\\kayaseker.DAL\\kayaseker.DAL.csproj",
       "projectName": "kayaseker.DAL",
-      "projectPath": "D:\\Turizm\\kayaseker\\kayaseker.DAL\\kayaseker.DAL.csproj",
+      "projectPath": "D:\\git\\ProjeTestSite\\kayaseker.DAL\\kayaseker.DAL.csproj",
       "packagesPath": "C:\\Users\\Kaya\\.nuget\\packages\\",
-      "outputPath": "D:\\Turizm\\kayaseker\\kayaseker.DAL\\obj\\",
+      "outputPath": "D:\\git\\ProjeTestSite\\kayaseker.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kaya\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,70 @@
+﻿@model kayaseker.DAL.Entities.MediaPicture
+@{
+    ViewData["Title"] = "UploadPicture";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Fotoğraf Paylaş</h1>
+<div class="container">
+    <div class="row element-animate mt-3">
+        <div class="col-md-4 mt-lg-5 mb-3">
+            <form method="post" id="profileimage" asp-action="UploadPicture" enctype="multipart/form-data">
+                <div class="card card-primary card-outline">
+                    <div class="card-body box-profile">
+                        <div class="text-center">
+                            <div class="row d-flex align-items-center justify-content-center">
+                                <img class="profile-user-img img-fluid img-circle"
+                                     style="max-width:250px; height: auto; margin:auto;" src="/medya/0205f280-6454-4849-9f8e-515b44432232photo_2020-11-17_23-54-53.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 form-group">
+                        <label for="Name">Başlık</label>
+                        <input asp-for="@Model.Title" id="Title" class="form-control py-2" required>
+                    </div>
+                    <div class="col-md-8 form-group">
+                        <label for="Title">Açıklama</label>
+                        <input asp-for="@Model.Description" id="Description" class="form-control py-2" required>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center justify-content-center m-3">
+
+                    <label for="profileimg" class="btn btn-outline-light"><i class="fa fa-eye">Yeni Fotoğraf Yükle</i></label>
+                    <small>Yeni fotoğraf ekledikten sonra kaydet tuşuna basınız.</small>
+                    <input type="file" name="file" multiple="multiple" id="profileimg" class="form-control-file" style="display:none;" required>
+                    <input asp-for="@Model.Owner" name="Owner" type="hidden" id="Owner" value="@User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Name).Value">
+
+                    <input type="submit" class="btn btn-primary" value="Paylaş">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="row element-animate mt-3">
+            <div class="col-md-4 mt-lg-5 mb-3">
+                <form method="post" id="profileimage" asp-action="UploadPicture" enctype="multipart/form-data">
+                    <div class="card card-primary card-outline">
+                        <div class="card-body box-profile">
+                            <div class="text-center">
+                                <div class="row d-flex align-items-center justify-content-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                         style="max-width:250px; height: auto; margin:auto;" src="/medya/" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center justify-content-center m-3">
+
+                        <label for="profileimg" class="btn btn-outline-light"><i class="fa fa-eye">Yeni Fotoğraf Yükle</i></label>
+                        <small>Tercihen 250x250 boyutunda ve kare fotoğraflar ekleyin</small>
+                        <small>Yeni fotoğraf ekledikten sonra kaydet tuşuna basınız. Değişiklik o zaman görünecek</small>
+                        <input type="file" name="file" multiple="multiple" id="profileimg" class="form-control-file" style="display:none;" required>
+                        <input type="submit" class="btn btn-primary" value="Kaydet">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

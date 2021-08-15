@@ -18,11 +18,14 @@ namespace kayaseker.Controllers
     {
 
         Repository<Member> rMember;
+        Repository<MediaPicture> rMediaPicture;
+
         MyContext myContext;
         IWebHostEnvironment _environment;
-        public HomeController(Repository<Member> _rMember, IWebHostEnvironment environment)
+        public HomeController(Repository<Member> _rMember, Repository<MediaPicture> _rMediaPicture, IWebHostEnvironment environment)
         {
             rMember = _rMember;
+            rMediaPicture = _rMediaPicture;
             _environment = environment;
         }
 
@@ -138,10 +141,11 @@ namespace kayaseker.Controllers
         {
             return View();
         }
-
+        [HttpGet]
         public IActionResult Istanbul()
         {
-            return View();
+            List<MediaPicture> mediaPictures = rMediaPicture.GetAll().ToList();
+            return View(mediaPictures);
         }
 
         public IActionResult Rehber()
@@ -166,21 +170,7 @@ namespace kayaseker.Controllers
         {
             return View();
         }
-        public IActionResult UploadPicture()
-        {
-
-            foreach (var file in Request.Form.Files)
-            {
-                string ImageTitle = file.FileName;
-                var yeniresimad = Guid.NewGuid() + ImageTitle.Replace(" ", "_");
-                var yuklenecekyer = Path.Combine(Directory.GetCurrentDirectory(),
-                            "wwwroot/medya/" + yeniresimad);
-                var stream = new FileStream(yuklenecekyer, FileMode.Create);
-                file.CopyTo(stream);
-
-            }
-            return RedirectToAction("Test");
-        }
+        
 
 
 
