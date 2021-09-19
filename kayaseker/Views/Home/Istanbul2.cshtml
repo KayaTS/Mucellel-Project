@@ -1,0 +1,146 @@
+﻿@model List<kayaseker.DAL.Entities.MediaPicture>
+<!DOCTYPE HTML>
+@{
+    ViewData["Title"] = "Videolar";
+    Layout = null;
+}
+
+<html lang="en">
+<head>
+    <title>Istanbul</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link type="text/css" href="~/assets/istanbul2/style.css" rel="stylesheet" media="all" />
+    <link type="text/css" href="~/assets/istanbul2/media-queries.css" rel="stylesheet" />
+    <link type="text/css" href="~/assets/istanbul2/mediaelementplayer.css" rel="stylesheet" />
+    <link rel="stylesheet" type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,700,700italic|Open+Sans+Condensed:300,700'>
+
+    <!--[if IE 9]>
+
+    <link href="~/style/css/ie8.css" type="text/css" rel="stylesheet" media="all"/>
+    <link href="~/style/css/ie9.css" type="text/css" rel="stylesheet" media="all" />
+
+    <link rel="stylesheet" type="text/css" href="style/css/ie9.css" media="all">
+    <![endif]-->
+    <script src="~/assets/istanbul2/js/ddsmoothmenu.js"></script>
+    <script src="~/assets/istanbul2/js/jquery-1.7.2.min.js"></script>
+    <script src="~/assets/istanbul2/js/jquery.backstretch.min.js"></script>
+    <script src="~/assets/istanbul2/js/jquery.dcflickr.1.0.js"></script>
+    <script src="~/assets/istanbul2/js/jquery.fitvids.js"></script>
+    <script src="~/assets/istanbul2/js/jquery.masonry.min.js"></script>
+    <script src="~/assets/istanbul2/js/mediaelement.min.js"></script>
+    <script src="~/assets/istanbul2/js/mediaelementplayer.min.js"></script>
+    <script src="~/assets/istanbul2/js/retina.js"></script>
+    <script src="~/assets/istanbul2/js/scripts.js"></script>
+    <script src="~/assets/istanbul2/js/selectnav.js"></script>
+    <script src="~/assets/istanbul2/js/twitter.min.js"></script>
+    <script>$.backstretch("/images/blur.jpg");</script>
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div style="width: 115px;margin:auto;position:relative;">
+        <img src="~/HeaderAssets/img/71.png" style="width: 115px;margin:auto;position:relative;">
+    </div>
+
+    <div class="header-wrapper opacity">
+        <div class="header">
+            <div class="logo"> <a asp-controller="home" asp-action="index"><h1>   ANASAYFA <i class="fa fa-heart text-white"></i></h1></a></div>
+            <div id="menu-wrapper">
+                <div id="menu-wrapper">
+                    <div id="menu" class="menu">
+                        <ul id="tiny">
+                            <li>
+                                <a asp-area="default" asp-controller="Home" asp-action="Harita">Harita</a>
+                            </li>
+                            <li>
+                                <a asp-area="default" asp-controller="Home" asp-action="Yapilar">Yapılar</a>
+                            </li>
+                            <li>
+                                <a asp-area="default" asp-controller="Home" asp-action="Unity">Oyun</a>
+                            </li>
+                            @{
+                                if (User.Identity.IsAuthenticated && User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Role).Value == "uye")
+                                {
+                                    <li>
+                                        <a asp-action="Profil" asp-area="uye">@User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Name).Value</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Cikis">Çıkış Yap</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a asp-action="Login"  role="button" class="btn btn-primary" >Giriş Yap</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Kayit"  role="button" class="btn btn-danger" >Kayıt Ol</a>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <div class="intro"><strong>İstanbul</strong><pre>   7 Tepe İstanbul Projesi İçin Tasarlanmıştır</pre></div>
+        <div class="intro">
+            @{
+                if (User.Identity.IsAuthenticated && User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Role).Value == "uye")
+                {
+                    <div class="col-md-12 text-center">
+                        <fieldset>
+                            <a asp-area="uye" asp-controller="home" asp-action="UploadPicture" class="btn btn-primary">Sen de Fotoğraf Paylaş</a>
+                        </fieldset>
+                    </div>
+                }
+                else
+                {
+                    <a asp-action="Login" class="btn btn-primary">Fotoğraf Paylaşmak İçin Giriş Yap</a>
+                }
+            }
+
+        </div>
+        <div class="blog-wrap">
+            <div class="blog-grid">
+                @foreach (var picture in Model)
+                {
+                    <div class="post format-image box">
+                        <div class="frame"> <a asp-area="default" asp-controller="home" asp-action="resim" asp-route-id="@picture.ID"> <img src="~/medya/@picture.ImageData" alt=""> </a> </div>
+                        <h1 class="title"><a asp-area="default" asp-controller="home" asp-action="resim" asp-route-id="@picture.ID">@picture.Title</a></h1>
+                        <h2 class="title"><a asp-area="default" asp-controller="home" asp-action="uyeprofil" asp-route-id="@picture.contentID">@picture.Owner</a></h2>
+                        <p>@picture.Description</p>
+                        <div class="details"><span class="icon-image">@picture.LogDate</span>  <span class="likes"><a href="#" class="likeThis">@picture.Like</a></span> <span class="comments"><a asp-action="uyeprofil" asp-route-id="@picture.contentID">@picture.Owner </a></span> </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div id="navigation">
+            <div class="nav-previous"><a asp-area="uye" asp-action="index"><span class="meta-nav-prev">&larr; Anasayfa</span></a></div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <div id="footer" class="four">
+            <div id="first" class="widget-area">
+            </div>
+            <div id="second" class="widget-area">
+            </div>
+            <div id="third" class="widget-area">
+            </div>
+            <div id="fourth" class="widget-area">
+
+            </div>
+        </div>
+    </div>
+    <div class="site-generator-wrapper">
+        <div class="site-generator"> 7 Projesi için tasarlanmıştır.</div>
+    </div>
+    <script src="~/style/js/scripts.js"></script>
+
+</body>
+</html>

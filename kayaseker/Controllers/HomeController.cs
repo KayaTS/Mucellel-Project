@@ -11,6 +11,7 @@ using kayaseker_BL.Repositories;
 using kayaseker.DAL.Contexts;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
+using kayaseker.WebUI.ViewModels;
 
 namespace kayaseker.Controllers
 {
@@ -19,13 +20,26 @@ namespace kayaseker.Controllers
 
         Repository<Member> rMember;
         Repository<MediaPicture> rMediaPicture;
+<<<<<<< HEAD
+        Repository<ImageComments> rImageComment;
+=======
 
+>>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
         MyContext myContext;
+
         IWebHostEnvironment _environment;
+<<<<<<< HEAD
+        public HomeController(Repository<Member> _rMember, Repository<ImageComments> _rImageComment, Repository<MediaPicture> _rMediaPicture, IWebHostEnvironment environment)
+        {
+            rMember = _rMember;
+            rMediaPicture = _rMediaPicture;
+            rImageComment = _rImageComment;
+=======
         public HomeController(Repository<Member> _rMember, Repository<MediaPicture> _rMediaPicture, IWebHostEnvironment environment)
         {
             rMember = _rMember;
             rMediaPicture = _rMediaPicture;
+>>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
             _environment = environment;
         }
 
@@ -100,6 +114,7 @@ namespace kayaseker.Controllers
                 if (uye != null)
                 {
                     ClaimsIdentity claimsIdentity = new ClaimsIdentity("Yedi");
+                    claimsIdentity.AddClaim(new Claim(ClaimTypes.Sid, uye.ID.ToString()));
                     claimsIdentity.AddClaim(new Claim(ClaimTypes.Name, uye.NameSurName));
                     claimsIdentity.AddClaim(new Claim(ClaimTypes.Email, uye.Mail));
                     claimsIdentity.AddClaim(new Claim(ClaimTypes.Role, "uye")); //Enum.GetName(typeof(ERole), ERole.uye))
@@ -130,11 +145,23 @@ namespace kayaseker.Controllers
         {
             return View();
         }
-
-        public IActionResult Profil()
+        public IActionResult Milyon()
         {
-            string uyeid = User.Claims.FirstOrDefault(f => f.Type == ClaimTypes.Sid).Value;
-            return View(rMember.GetBy(r => r.ID.ToString() == uyeid));
+            return View();
+        }
+        public IActionResult Topkapi()
+        {
+            return View();
+        }
+
+        public IActionResult UyeProfil(int id)
+        {
+            MemberPictureVM memberPictureVM = new MemberPictureVM()
+            {
+                Member = rMember.GetBy(r => r.ID == id),
+                MediaPictures = rMediaPicture.GetAll(x => x.contentID == id).ToList()
+            };
+            return View(memberPictureVM);
         }
 
         public IActionResult Harita()
@@ -144,18 +171,44 @@ namespace kayaseker.Controllers
         [HttpGet]
         public IActionResult Istanbul()
         {
+<<<<<<< HEAD
+           List<MediaPicture> mediaPictures = rMediaPicture.GetAll().ToList();
+           return View(mediaPictures);
+           
+=======
             List<MediaPicture> mediaPictures = rMediaPicture.GetAll().ToList();
             return View(mediaPictures);
+>>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
+        }
+        [HttpGet]
+        public IActionResult Istanbul2()
+        {
+            List<MediaPicture> mediaPictures = rMediaPicture.GetAll().ToList();
+            return View(mediaPictures);
+
         }
 
-        public IActionResult Rehber()
+        public IActionResult Resim(int id)
         {
-            return View();
+            MediaPicture mediaPicture = rMediaPicture.GetBy(x => x.ID == id);
+            MemberPictureVM memberPictureVM = new MemberPictureVM()
+            {
+                Member = rMember.GetBy(r => r.ID == id),
+                MediaPicture = rMediaPicture.GetBy(x => x.ID == id)
+            };
+            return View(memberPictureVM);
         }
-
-        public IActionResult Sohbet()
+        [HttpPost]
+        public IActionResult Resim(ImageComments comment)
         {
-            return View();
+            comment.MemberID = Convert.ToInt32(User.Claims.FirstOrDefault(f => f.Type == ClaimTypes.Sid).Value);
+            //  comment.Member = rMember.GetBy(x => x.ID == comment.MemberID);
+            comment.UserName = User.Claims.FirstOrDefault(f => f.Type == ClaimTypes.Name).Value;
+            comment.CommentDate = DateTime.Now;
+            comment.Like = 0;
+            comment.pictureID = 0;
+            rImageComment.Add(comment);
+            return RedirectToAction("Resim");
         }
 
         public IActionResult Yapilar()

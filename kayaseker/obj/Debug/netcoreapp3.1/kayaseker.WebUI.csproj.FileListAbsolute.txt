@@ -473,3 +473,13 @@ D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\kayaseker.WebUI.genruntim
 D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\UploadPicture.cshtml.g.cs
 D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Areas\uye\Views\Home\UploadPicture.cshtml.g.cs
 D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Areas\uye\Views\Home\Istanbul.cshtml.g.cs
+<<<<<<< HEAD
+D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\UyeProfil.cshtml.g.cs
+D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Istanbul2.cshtml.g.cs
+D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Milyoner.cshtml.g.cs
+D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Resim.cshtml.g.cs
+D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Mekan.cshtml.g.cs
+D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Milyon.cshtml.g.cs
+D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Topkapi.cshtml.g.cs
+=======
+>>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
