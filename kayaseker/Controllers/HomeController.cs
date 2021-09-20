@@ -20,26 +20,15 @@ namespace kayaseker.Controllers
 
         Repository<Member> rMember;
         Repository<MediaPicture> rMediaPicture;
-<<<<<<< HEAD
         Repository<ImageComments> rImageComment;
-=======
-
->>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
         MyContext myContext;
 
         IWebHostEnvironment _environment;
-<<<<<<< HEAD
         public HomeController(Repository<Member> _rMember, Repository<ImageComments> _rImageComment, Repository<MediaPicture> _rMediaPicture, IWebHostEnvironment environment)
         {
             rMember = _rMember;
             rMediaPicture = _rMediaPicture;
             rImageComment = _rImageComment;
-=======
-        public HomeController(Repository<Member> _rMember, Repository<MediaPicture> _rMediaPicture, IWebHostEnvironment environment)
-        {
-            rMember = _rMember;
-            rMediaPicture = _rMediaPicture;
->>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
             _environment = environment;
         }
 
@@ -171,14 +160,9 @@ namespace kayaseker.Controllers
         [HttpGet]
         public IActionResult Istanbul()
         {
-<<<<<<< HEAD
            List<MediaPicture> mediaPictures = rMediaPicture.GetAll().ToList();
            return View(mediaPictures);
            
-=======
-            List<MediaPicture> mediaPictures = rMediaPicture.GetAll().ToList();
-            return View(mediaPictures);
->>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
         }
         [HttpGet]
         public IActionResult Istanbul2()
@@ -187,14 +171,14 @@ namespace kayaseker.Controllers
             return View(mediaPictures);
 
         }
-
         public IActionResult Resim(int id)
         {
             MediaPicture mediaPicture = rMediaPicture.GetBy(x => x.ID == id);
             MemberPictureVM memberPictureVM = new MemberPictureVM()
             {
                 Member = rMember.GetBy(r => r.ID == id),
-                MediaPicture = rMediaPicture.GetBy(x => x.ID == id)
+                MediaPicture = rMediaPicture.GetBy(x => x.ID == id),
+                Imagecomment = new ImageComments() 
             };
             return View(memberPictureVM);
         }
@@ -220,6 +204,11 @@ namespace kayaseker.Controllers
             return View();
         }
         public IActionResult Unity()
+        {
+            return View();
+        }
+        
+        public IActionResult Eshop()
         {
             return View();
         }

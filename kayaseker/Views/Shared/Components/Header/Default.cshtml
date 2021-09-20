@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>Yedi</title>
     <link rel="stylesheet" href="~/HeaderAssets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i">
@@ -20,7 +20,7 @@
    
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark py-lg-4" id="mainNav" style="background: var(--cyan);border-color: var(--indigo);padding: 0px 0px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;height: 76.891px;">
         <div class="container">
-            <a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">Brand</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">Menü</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive" style="height: 59px;width: 919px;min-width: 0px;max-width: 642px;">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Index" style="color: var(--white);">Anasayfa</a></li>
@@ -28,6 +28,7 @@
                     <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Harita" style="color: var(--white);">Harita</a></li>
                     <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Yapilar" style="color: var(--white);">Yapılar</a></li>
                     <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Unity" style="color: var(--white);">Oyun</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Eshop" style="color: var(--white);">Mağaza</a></li>
                     @{if (User.Identity.IsAuthenticated && User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Role).Value == "uye")
                     {
                     <li class="nav-item"><a asp-action="Profil" asp-area="uye" role="button" class="btn btn-primary" style="margin: 0px;margin-right: 20px;color: var(--white);background: var(--cyan);">@User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Name).Value</a></li>

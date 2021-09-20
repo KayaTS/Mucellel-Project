@@ -140,16 +140,16 @@
                             {
                                 <!--Yorum Yap-->
                                 <h3 id="reply-title">Yorum Bırak</h3>
-                                <form action="#" method="post" id="commentform">
+                                <form asp-action="Resim"  method="post" id="commentform">
                                     <p class="comment-notes"> <span class="required"></span></p>
                                     <p class="comment-form-author">
                                         <label for="author">@User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Name).Value</label>
                                     </p>
                                     <p class="comment-form-comment">
                                         <label for="comment">Yorum Başlığı</label>
-                                        <textarea asp-for="Imagecomment.Title" id="comment" cols="45" rows="8" aria-required="true"></textarea>
+                                        <input asp-for="@Model.Imagecomment.Title" id="comment" class="form-control" cols="45" rows="8" aria-required="true">
                                         <label for="comment">Yorum Metni</label>
-                                        <textarea asp-for="Imagecomment.Text" id="comment" cols="45" rows="8" aria-required="true"></textarea>
+                                        <textarea asp-for="@Model.Imagecomment.Text" id="comment" cols="45" rows="8" aria-required="true"></textarea>
                                         <input type="hidden" asp-for="Imagecomment.pictureID" value="@Model.MediaPicture.ID" />
                                     </p>
                                     <p class="form-submit">

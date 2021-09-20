@@ -12,11 +12,8 @@ using kayaseker_BL.Repositories;
 using kayaseker.DAL.Entities;
 using Microsoft.AspNetCore.Hosting;
 using kayaseker.DAL.Contexts;
-<<<<<<< HEAD
 using System.Security.Claims;
 using kayaseker.WebUI.ViewModels;
-=======
->>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
 
 namespace kayaseker.WebUI.Areas.uye.Controllers
 {
@@ -25,7 +22,6 @@ namespace kayaseker.WebUI.Areas.uye.Controllers
     {
         Repository<Member> rMember;
         Repository<MediaPicture> rMediaPicture;
-<<<<<<< HEAD
         Repository<ContentsPlaces> rContents;
         MyContext myContext;
         IWebHostEnvironment _environment;
@@ -34,14 +30,6 @@ namespace kayaseker.WebUI.Areas.uye.Controllers
             rMember = _rMember;
             rMediaPicture = _rMediaPicture;
             rContents = _rContents;
-=======
-        MyContext myContext;
-        IWebHostEnvironment _environment;
-        public HomeController(Repository<Member> _rMember, Repository<MediaPicture> _rMediaPicture, IWebHostEnvironment environment)
-        {
-            rMember = _rMember;
-            rMediaPicture = _rMediaPicture;
->>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
             _environment = environment;
         }
         public IActionResult Index()
@@ -54,14 +42,8 @@ namespace kayaseker.WebUI.Areas.uye.Controllers
             ViewBag.saniye = Math.Round(gecenGun.TotalSeconds);
             return View();
         }
-        public IActionResult Istanbul()
-        {
-            List<MediaPicture> mediaPictures = rMediaPicture.GetAll().ToList();
-            return View(mediaPictures);
-        }
         [HttpGet]
         public IActionResult UploadPicture()
-<<<<<<< HEAD
         {
             return View();
         }
@@ -95,7 +77,7 @@ namespace kayaseker.WebUI.Areas.uye.Controllers
             picture.Contents = rContents.GetBy(r => r.ID == 2);
             rMediaPicture.Add(picture);
             rMediaPicture.Save();
-            return RedirectToAction("Istanbul");
+            return RedirectToAction("Istanbul2", "Home", new { area = "default" });
         }
         public IActionResult Profil()
         {
@@ -107,40 +89,6 @@ namespace kayaseker.WebUI.Areas.uye.Controllers
             };
             return View(memberPictureVM);
         }
-=======
-        {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult UploadPicture(MediaPicture mediaPicture)
-        {
-            MediaPicture picture = new MediaPicture();
-            foreach (var file in Request.Form.Files)
-            {
-                picture.Title = mediaPicture.Title;
-                string ImageTitle = file.FileName;
-                picture.Name = ImageTitle;
-                var yeniresimad = Guid.NewGuid() + ImageTitle.Replace(" ", "_");
-                var yuklenecekyer = Path.Combine(Directory.GetCurrentDirectory(),
-                            "wwwroot/medya/" + yeniresimad);
-                var stream = new FileStream(yuklenecekyer, FileMode.Create);
-                file.CopyTo(stream);
-                picture.ImageData = yeniresimad;
-            }
-            picture.Owner = mediaPicture.Owner;
-            picture.Description = mediaPicture.Description;
-            picture.Like = 0;
-            picture.View = 0;
-            picture.LogDate = DateTime.Now;
-            picture.contentID = mediaPicture.contentID;
-            picture.Contents.ID = 2;
-            return RedirectToAction("Istanbul");
-        }
-        public IActionResult Profil()
-        {
-            return View();
-        }
->>>>>>> c9961113a2e299b14b18342be8e93190b2e1f8fa
 
         public async Task<IActionResult> Cikis()
         {
