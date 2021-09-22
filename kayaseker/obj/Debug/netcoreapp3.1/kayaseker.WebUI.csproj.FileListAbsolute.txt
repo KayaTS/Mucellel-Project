@@ -478,3 +478,4 @@ D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Mekan.cs
 D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Milyon.cshtml.g.cs
 D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Topkapi.cshtml.g.cs
 D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Eshop.cshtml.g.cs
+D:\git\ProjeTestSite\kayaseker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Yarisma.cshtml.g.cs

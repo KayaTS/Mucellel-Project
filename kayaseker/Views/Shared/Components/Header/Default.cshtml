@@ -27,7 +27,43 @@
                     <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Istanbul2" style="color: var(--white);">İstanbul</a></li>
                     <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Harita" style="color: var(--white);">Harita</a></li>
                     <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Yapilar" style="color: var(--white);">Yapılar</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Unity" style="color: var(--white);">Oyun</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Unity" style="color: var(--white);">Puzzle</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Yarisma" style="color: var(--white);">Yarışma</a></li>
+
+                    @*
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Oyun
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Puzzle</a>
+                            <a class="dropdown-item" href="#">Bilgi Yarışması</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#" style="color: var(--white);">Oyun</a>
+                        <ul class="navbar nav-child-indent">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Unity">Puzzle</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Yarisma">Bilgi Yarışması</a>
+                            </li>
+                        </ul>
+                    </li>*@
                     <li class="nav-item"><a class="nav-link" asp-area="default" asp-controller="Home" asp-action="Eshop" style="color: var(--white);">Mağaza</a></li>
                     @{if (User.Identity.IsAuthenticated && User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Role).Value == "uye")
                     {

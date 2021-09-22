@@ -1,21 +1,21 @@
 .u-section-1 {
-  min-height: 1901px;
+  min-height: auto;
 }
 
 .u-section-1 .u-shape-1 {
-  height: 557px;
+  height: auto;
   margin-top: 0;
   margin-bottom: 0;
   background-image: none;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  width: 1140px;
+  width: auto;
   margin: -412px auto 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 903px;
+  min-height: auto;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -31,7 +31,7 @@
 }
 
 .u-section-1 .u-image-1 {
-  min-height: 903px;
+  min-height: auto;
   background-image: linear-gradient(0deg, rgba(213,244,244,0.2), rgba(213,244,244,0.2)), url("images/ayasofya43.png");
   background-position: 50% 36%;
 }
@@ -42,7 +42,7 @@
 
 .u-section-1 .u-image-2 {
   background-image: url("images/ayasofya1.png");
-  min-height: 903px;
+  min-height: auto;
   background-position: 50% 87.74%;
 }
 
@@ -53,20 +53,20 @@
 
 .u-section-1 .u-layout-cell-4 {
   background-image: none;
-  min-height: 903px;
+  min-height: auto;
 }
 
 .u-section-1 .u-container-layout-4 {
-  padding-left: 15px;
+  padding-left: %15;
   padding-right: 0;
 }
 
 .u-section-1 .u-line-1 {
-  width: 123px;
-  height: 8px;
+  width: auto;
+  height: %8;
   transform-origin: left center 0px;
   position: absolute;
-  top: 376px;
+  top: auto;
   left: auto;
   right: 0;
 }
@@ -78,13 +78,13 @@
 .u-section-1 .u-btn-1 {
   background-image: none;
   border-style: none;
-  font-weight: 700;
+  font-weight: auto;
   margin: 70px 0 0 auto;
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 150px)  and (max-width:1500px) {
   .u-section-1 {
-    min-height: 964px;
+    min-height: auto;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -101,24 +101,24 @@
   }
 
   .u-section-1 .u-image-1 {
-    min-height: 745px;
+    min-height: auto;
   }
 
   .u-section-1 .u-image-2 {
-    min-height: 745px;
+    min-height: auto;
   }
 
   .u-section-1 .u-layout-cell-4 {
-    min-height: 745px;
+    min-height: auto;
   }
 
   .u-section-1 .u-container-layout-4 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: %16;
+    padding-right: %16;
   }
 
   .u-section-1 .u-line-1 {
-    right: 102px;
+    right: auto;
   }
 
   .u-section-1 .u-text-2 {
@@ -306,13 +306,13 @@
   }
 
   .u-section-2 .u-container-layout-1 {
-    padding-left: 13px;
+    padding-left: 13px; 
     padding-right: 13px;
   }
 
   .u-section-2 .u-image-1 {
-    width: 335px;
-    height: 655px;
+    width: 33%;
+    height: 65%;
   }
 }
 

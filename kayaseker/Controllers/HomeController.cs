@@ -207,8 +207,12 @@ namespace kayaseker.Controllers
         {
             return View();
         }
-        
         public IActionResult Eshop()
+        {
+            return View();
+        }
+        
+        public IActionResult Yarisma()
         {
             return View();
         }

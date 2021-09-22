@@ -56,7 +56,15 @@
                                 <a asp-area="default" asp-controller="Home" asp-action="Yapilar">Yapılar</a>
                             </li>
                             <li>
-                                <a asp-area="default" asp-controller="Home" asp-action="Unity">Oyun</a>
+                                <a href="#">Oyun</a>
+                                <ul id="tiny">
+                                    <li>
+                                        <a asp-area="default" asp-controller="Home" asp-action="Unity">Puzzle</a>
+                                    </li>
+                                    <li>
+                                        <a asp-area="default" asp-controller="Home" asp-action="Yarisma">Bilgi Yarışması</a>
+                                    </li>
+                                </ul>
                             </li>
                             @{
                                 if (User.Identity.IsAuthenticated && User.Claims.FirstOrDefault(f => f.Type == System.Security.Claims.ClaimTypes.Role).Value == "uye")

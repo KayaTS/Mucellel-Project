@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div style=" padding-top:2px; text-align:center; width:50% padding-top:10px">
-                    <h1 style="font-size:40px; color:magenta; text-decoration:underline">Dogru Gorsel</h1>
+                    <h1 style="font-size:40px; color:black; text-decoration:underline">Dogru Gorsel</h1>
                     <div style="margin:auto">
                         <img src="~/puzzle/puzz1.jpg" id="puzz1" width="150" height="150">
                         <img src="~/puzzle/puzz2.jpg" id="puzz2" width="150" height="150">
@@ -109,7 +109,7 @@
                 ctx.fillStyle = pat;
                 ctx.fillRect(300, 300, 150, 150);
                 m = document.getElementById("message");
-                m.innerHTML = "You won the game in " + moves.toString() + " moves";
+                m.innerHTML = "Oyunu Kazandın. " + moves.toString() + " Hamle";
                 au = document.getElementById("cheers");
                 au.play();
                 restart = 1;
@@ -119,7 +119,7 @@
             function draw() {
                 moves++;
                 mov = document.getElementById("moves");
-                mov.innerHTML = "MOVES: " + moves.toString();
+                mov.innerHTML = "Hamle: " + moves.toString();
                 m = document.getElementById("message");
                 m.innerHTML = "";
                 var t;

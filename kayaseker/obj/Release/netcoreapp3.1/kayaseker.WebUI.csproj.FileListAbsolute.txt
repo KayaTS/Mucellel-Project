@@ -479,3 +479,4 @@ D:\git\ProjeTestSite\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Milyon
 D:\git\ProjeTestSite\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Resim.cshtml.g.cs
 D:\git\ProjeTestSite\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Topkapi.cshtml.g.cs
 D:\git\ProjeTestSite\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Eshop.cshtml.g.cs
+D:\git\ProjeTestSite\kayaseker\obj\Release\netcoreapp3.1\Razor\Views\Home\Yarisma.cshtml.g.cs
